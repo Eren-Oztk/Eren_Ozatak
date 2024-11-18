@@ -259,6 +259,55 @@
     width: 30px;
 }
 
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.icon-box:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-muted {
+    color: #6c757d;
+}
 
 /*** Service ***/
 .service-item .bg-icon {
